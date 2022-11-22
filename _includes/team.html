@@ -1,0 +1,56 @@
+<!-- Team Section -->
+<section id="team" style="padding-top: 200px;padding-bottom: 10px;padding-left:15px;padding-right:15px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">The Team</h2>
+            </div>
+            <div class="row">
+                {% for member in site.people %}
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt=""/>
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <!-- Team Section <p class="text-muted">{{ member.bio }}</p> -->
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <p align="left" style="padding-left:15px;padding-right:15px;"><font size="4"><b>ALUMNI</b></font></p>
+            </div>
+            <div class="row" style="padding-left: 15px;padding-right: 15px;margin-left: 0px;margin-right: 0px;">
+                <div class="div-b">Yong Wang, Ph.D, Senior Postdoctoral Fellow </div>                 
+
+                <div class="div-b">Ruli Gao, Ph.D, Senior Postdoctoral Fellow </div>
+                <div class="div-a">Marco Leung, Ph.D. Student </div>
+                <div class="div-a">Anna Casasent, Ph.D. Student</div>
+                <div class="div-a">Charissa Kim, MD / Ph.D. Student </div>                 
+
+                <div class="div-b">Naveen Ramesh, Ph.D Student </div>                 
+
+                <div class="div-b">Alexander Davis, Ph.D. Student</div>                 
+
+                <div class="div-b">Aislyn Shalck, Ph.D. Student</div>
+                <div class="div-a">Darlan Minussi, Ph.D. Student</div>                 
+
+                <div class="div-b">Tapsi Kumar, Ph.D. Student</div>
+                <div class="div-a">Yuwei Lin, Masters Student </div>                 
+
+                <div class="div-b">Mashiat Rabbani, Masters Student</div>
+                <div class="div-a">Haowei Du, Masters Student  </div>                 
+
+                <div class="div-b">Cheng Peng, Masters Student</div>
+            </div>
+            <p> </p>
+            <p> </p>
+        </div>
+    </div>
+</section>
