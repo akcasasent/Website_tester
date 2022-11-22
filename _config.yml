@@ -1,5 +1,5 @@
 baseurl: ""
-url: "minbio.github.io"
+url: "Website_tester.github.io"
 permalink: /:categories/:year/:month/:day/:title.html
 
 # For inline code
