@@ -1,0 +1,327 @@
+baseurl: ""
+url: "minbio.github.io"
+permalink: /:categories/:year/:month/:day/:title.html
+
+# For inline code
+
+# Site settings
+title: Navin Lab
+email: NNavin@mdanderson.org
+description: "The Navin Laboratory at The University of Texas MD Anderson Cancer Center."
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: DD1144
+  secondary: DD1144
+  third: ccc
+  secondary-dark: 737373
+
+category-list: [software, news]
+
+# Team names, titles and social links
+people:
+- name: Nicholas Navin
+  pic: nick
+  position: Professor & Chair
+  social:
+    - title: twitter
+      url: https://twitter.com/nicholas_navin
+    - title: graduation-cap
+      url: https://scholar.google.com/citations?user=e4mp7GoAAAAJ&hl=en
+    - title: linkedin
+      url: https://www.linkedin.com/in/nicholas-navin-6541b137
+
+
+- name: Emi Sei
+  pic: emi
+  position: Research Group Leader
+  social:
+    - title: envelope
+      url: mailto:ESei@mdanderson.org
+
+
+- name: Shanshan Bai
+  pic: shan
+  position: Supv, Laboratory & Research
+  social:
+    - title: envelope
+      url: mailto:SBai@mdanderson.org
+
+
+- name: Kaile Wang
+  pic: kaile
+  position: Instructor
+  social:
+    - title: envelope
+      url: mailto:KWang5@mdanderson.org
+
+
+- name: Tuan Tran
+  pic: tuan
+  position: Research Laboratory Manager
+  social:
+    - title: envelope
+      url: mailto:TMTran2@mdanderson.org
+
+
+- name: Jerome Lin
+  pic: jerome
+  position: Computational Scientist
+  social:
+    - title: envelope
+      url: mailto:JLin9@mdanderson.org
+
+
+- name: Jianzhuo Li
+  pic: jiahong
+  position: Research Investigator
+  social:
+    - title: envelope
+      url: mailto:JLi33@mdanderson.org
+
+
+- name: Min Hu
+  pic: min
+  position: Sr Computational Scientist
+  social:
+    - title: envelope
+      url: mailto:MHu1@mdanderson.org
+
+
+- name: Anna K. Casasent
+  pic: anna2
+  position: Computational Scientist
+  social:
+    - title: envelope
+      url: mailto:AKCasasent@mdanderson.org
+    - title: linkedin
+      url: https://www.linkedin.com/in/anna-casasent/
+
+
+- name: Mitchell Rao
+  pic: Mitchael
+  position: Computational Scientist
+  social:
+    - title: envelope
+      url: mailto:mmrao@mdanderson.org
+
+  
+  
+- name: Zhenna Xiao
+  pic: zhenna
+  position: Postdoctoral Fellow
+  social:
+      - title: envelope
+        url: ZXiao1@mdanderson.org
+
+
+- name: Runmin Wei
+  pic: runmin
+  position: Postdoctoral Fellow
+  social:
+      - title: envelope
+        url: RWei2@mdanderson.org
+      - title: twitter
+        url: https://twitter.com/rum_wei
+      - title: graduation-cap
+        url: https://scholar.google.com/citations?user=chbmcD0AAAAJ&hl=en
+
+
+- name: Yuehui Zhao
+  pic: yuehui
+  position: Postdoctoral Fellow
+  social:
+      - title: envelope
+        url: YZhao16@mdanderson.org
+
+
+- name: Nicolaas Baudoin
+  pic: Nico
+  position: Postdoctoral Fellow
+  social:
+    - title: envelope
+      url: mailto:NBaudoin@mdanderson.org
+
+
+- name: Rachel Dittmar
+  pic: Rachel
+  position: Postdoctoral Fellow
+  social:
+    - title: envelope
+      url: mailto:RLDittmar@mdanderson.org
+
+
+- name: Aatish Thennavan
+  pic: Aatish
+  position: Postdoctoral Fellow
+  social:
+    - title: envelope
+      url: mailto:AThennavan@mdanderson.org
+
+
+- name: Ryan Mulqueen
+  pic: Ryan
+  position: Postdoctoral Fellow
+  social:
+    - title: envelope
+      url: mailto:rmulqueen@mdanderson.org
+
+
+- name: Andres Nevarez
+  pic: Andres
+  position: Postdoctoral Fellow
+  bio:
+    Currently, my research is focused on understanding the landscape
+    of de novo mutation in the human genome.
+  social:
+    - title: envelope
+      url: mailto:ajnevarez@mdanderson.org
+
+- name: Haijing Jin
+  pic: haijing
+  position: Postdoctoral Fellow
+  social:
+    - title: envelope
+      url: mailto:hjin3@mdanderson.org
+
+- name: Jake Leighton
+  pic: jake
+  position: Graduate Student
+  social:
+    - title: envelope
+      url: mailto:JLeighton@mdanderson.org
+
+
+- name: Rui Ye
+  pic: ruiye
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: mailto:RYe@mdanderson.org
+
+
+- name: Yun Yan
+  pic: yun
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: YYan7@mdanderson.org
+
+
+- name: Hanghui Ye
+  pic: hanghui
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: HYe3@mdanderson.org
+
+
+- name: Jie Ye
+  pic: jie
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: JYe1@mdanderson.org
+
+
+- name: Yiyun Lin
+  pic: yiyun
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: ylin54@mdanderson.org
+
+
+- name: Siyuan He
+  pic: siyuan
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: SHe2@mdanderson.org
+
+- name: Junke (Kris) Wang
+  pic: junke
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: JWang48@mdanderson.org
+
+- name: Ping Xu
+  pic: pingxu
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: pxu@mdanderson.org
+
+
+
+- name: Lei Yang
+  pic: leiyang
+  position: Graduate Student
+  social:
+      - title: envelope
+        url: LYang15@mdanderson.org
+
+
+- name: Heba Elgamal
+  pic: heba
+  position: Masters Student
+  social:
+      - title: envelope
+        url: HElgamal@mdanderson.org
+
+
+
+
+
+# Alumni
+alumni:
+
+
+- name: Yong Wang
+  pic: wangyong
+  position: Postdoctoral Scientist
+  social:
+    - title: github
+      url:
+
+- name: Ruli Gao
+  pic: ruli
+  position: Postdoctoral Scientist
+  social:
+    - title: github
+      url:
+
+- name: Marco Leung
+  pic: marco
+  position: Undergraduate Researcher
+
+- name: Pei-Ching Tsai
+  pic: sai
+  position: Undergraduate Researcher
+
+- name: Charissa Kim
+  pic: charissa
+  position: phD Student
+  social:
+    - title: github
+      url:
+
+- name: Haowei Du
+  pic: Haowei
+  position: Undergraduate Student
+  social:
+    - title: github
+      url:
+
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/nicholas_navin
+  - title: envelope
+    url: mailto:NNavin@mdanderson.org
+  - title: google
+    url: https://scholar.google.com/citations?user=e4mp7GoAAAAJ&hl=en
+  - title: linkedin
+    url: https://www.linkedin.com/in/nicholas-navin-6541b137
